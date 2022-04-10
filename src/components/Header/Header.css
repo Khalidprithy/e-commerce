@@ -1,0 +1,37 @@
+.header-nav{
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.nav-links{
+    margin-right: 40px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.nav-links a:hover{
+    color: orange;
+}
+
+.sign-out{
+    cursor: pointer;
+    margin-left: 20px;
+    border: none;
+    background: none;
+    color: rgb(199, 180, 127);
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.sign-out:hover{
+    color: orange;
+}
